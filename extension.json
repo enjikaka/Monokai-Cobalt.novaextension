@@ -1,7 +1,7 @@
 {
-	"identifier": "enjikaka.MonokaiCobalt",
+	"identifier": "se.jeremy.MonokaiCobalt",
 	"name": "Monokai Cobalt",
-	"organization": "enjikaka",
+	"organization": "Jeremy Karlsson",
 	"description": "Ported theme",
 	"version": "0.0.1",
 	"categories": ["themes"],

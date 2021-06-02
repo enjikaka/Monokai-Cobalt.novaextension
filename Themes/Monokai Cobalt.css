@@ -5,6 +5,7 @@ meta {
 }
 
 bracket,
+operator,
 css.style.attribute.separator {
   color: #f8f8f0;
 }
@@ -35,34 +36,45 @@ meta.titlebar.inactive {
   background-color: #2d3b45;
 }
 
-comment {
+cdata,
+comment,
+processing,
+declaration {
   color: #557da0;
   font-style: italic;
 }
 
+css.style.value.color.rgba.number.red,
+css.style.value.number.unit,
+terminal.red,
+css.style.selector,
+keyword {
+  color: #f92e8a;
+}
+
+html.tag.attribute.value,
+markup.heading,
 definition.property,
-typescript.identifier.type,
 terminal.yellow,
 string {
   color: #ffe500;
 }
 
-typescript.identifier.type.core,
+typescript.identifier.type,
+markup.link,
+value.null,
 css.style.attribute,
 identifier.constant,
 value.number {
   color: #d947ff;
 }
 
+css.style.value.color.rgba.number.alpha,
+identifier.property,
+identifier.name,
 style.value.keyword,
 identifier.variable {
   color: #ffffff;
-}
-
-terminal.red,
-css.style.selector,
-keyword {
-  color: #f92e8a;
 }
 
 terminal.magenta,
@@ -70,7 +82,8 @@ tag {
   color: #ff308f;
 }
 
-typescript.identifier.type.interface.name,
+css.style.value.color.rgba.number.green,
+identifier.method,
 terminal.green,
 css.style.selector.identifier.name.id,
 css.style.selector.identifier.name.class,
@@ -84,12 +97,13 @@ identifier.argument {
   color: #fd971f;
 }
 
-definition.function,
+css.style.value.color.rgba.number.blue,
+javascript.keyword.async,
+identifier,
+typescript.keyword.function,
 terminal.cyan,
 json.key,
-css.style.attribute.name,
-identifier.method,
-identifier.property {
+css.style.attribute.name {
   color: #00d6ff;
 }
 
