@@ -1,0 +1,12 @@
+{
+	"identifier": "enjikaka.MonokaiCobalt",
+	"name": "Monokai Cobalt",
+	"organization": "enjikaka",
+	"description": "Ported theme",
+	"version": "0.0.1",
+	"categories": ["themes"],
+	"repository": "https://github.com/enjikaka/Monokai-Cobalt.novaextension",
+	"bugs": "https://github.com/enjikaka/Monokai-Cobalt.novaextension/issues",
+	"funding": "https://github.com/sponsors/enjikaka",
+	"license": "MIT"
+}

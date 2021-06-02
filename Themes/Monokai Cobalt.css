@@ -1,0 +1,103 @@
+meta {
+  -theme-interface-style: dark;
+  -theme-vibrancy: none;
+  -theme-accent-color: auto;
+}
+
+bracket,
+css.style.attribute.separator {
+  color: #f8f8f0;
+}
+
+meta.window {
+  background-color: #2d3b45;
+  color: #f8f8f2;
+  border-color: rgba(0, 0, 0, 0.2);
+}
+
+meta.cursor {
+  background-color: #485e6c;
+}
+
+meta.gutter {
+  color: #75715E;
+  border-color: #75715E;
+  background-color: #49483E;
+}
+
+meta.titlebar {
+  color: #fcfcfa;
+  background-color: #2d3b45;
+  border-color: rgba(0, 0, 0, 0.2);
+}
+
+meta.titlebar.inactive {
+  background-color: #2d3b45;
+}
+
+comment {
+  color: #557da0;
+  font-style: italic;
+}
+
+definition.property,
+typescript.identifier.type,
+terminal.yellow,
+string {
+  color: #ffe500;
+}
+
+typescript.identifier.type.core,
+css.style.attribute,
+identifier.constant,
+value.number {
+  color: #d947ff;
+}
+
+style.value.keyword,
+identifier.variable {
+  color: #ffffff;
+}
+
+terminal.red,
+css.style.selector,
+keyword {
+  color: #f92e8a;
+}
+
+terminal.magenta,
+tag {
+  color: #ff308f;
+}
+
+typescript.identifier.type.interface.name,
+terminal.green,
+css.style.selector.identifier.name.id,
+css.style.selector.identifier.name.class,
+tag.attribute,
+identifier.function,
+identifier.type.class {
+  color: #b7fa34;
+}
+
+identifier.argument {
+  color: #fd971f;
+}
+
+definition.function,
+terminal.cyan,
+json.key,
+css.style.attribute.name,
+identifier.method,
+identifier.property {
+  color: #00d6ff;
+}
+
+invalid {
+  background-color: #ff308f;
+  color: #f8f8f0;
+}
+
+meta.text.selected {
+  background-color: #485e6b;
+}
